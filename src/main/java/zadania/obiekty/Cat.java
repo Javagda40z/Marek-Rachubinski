@@ -3,6 +3,16 @@ package zadania.obiekty;
 public class Cat implements Animals {
     private int licznik;
 
+    private String imie;
+
+    public String getImie() {
+        return imie;
+    }
+    public Cat(){}
+    public Cat(String imie) {
+        this.imie = imie;
+    }
+
     public void drap(){
         //kot drapie
     }
